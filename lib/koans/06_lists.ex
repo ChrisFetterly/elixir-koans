@@ -36,7 +36,7 @@ defmodule Lists do
   end
 
   koan "Order can also be specified for new members" do
-    assert List.insert_at([1, 2, 3], 1, 4) == ___
+    assert List.insert_at([1, 2, 3], 3, 4) == ___
   end
 
   koan "We can replace things at specified positions" do
